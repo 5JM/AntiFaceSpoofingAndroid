@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".GetIdImageActivity">
+
+    <ImageView
+        android:id="@+id/id_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/kface_title"
+        />
+
+    <ImageView
+        android:id="@+id/round_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@mipmap/round_box" />
+
+    <TextView
+        android:id="@+id/cubox_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/round_box"
+        android:layout_alignTop="@id/round_box"
+        android:layout_alignEnd="@id/round_box"
+        android:layout_marginTop="38dp"
+        android:gravity="center_horizontal"
+
+        android:text="신분증 사진을 확인해주세요."
+        android:textColor="@color/white"
+        android:textSize="18.7sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cubox_logo"
+        android:layout_alignTop="@id/cubox_title"
+        android:layout_alignStart="@id/round_box"
+        android:layout_alignEnd="@id/round_box"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/retake_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:text="다시촬영"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/use_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:text="사용하기"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cubox_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/round_box"
+
+        android:layout_alignEnd="@id/round_box"
+        android:layout_alignBottom="@id/round_box"
+        android:layout_marginBottom="17dp"
+
+        app:srcCompat="@mipmap/cubox_logo" />
+</RelativeLayout>

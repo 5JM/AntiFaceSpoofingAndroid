@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomPreview">
+        <attr name="punchSize" format="integer" />
+        <attr name="punchRadius" format="integer" />
+        <attr name="backgroundAlpha" format="integer" />
+        <attr name="moveTop" format="integer" />
+        <attr name="moveBottom" format="integer" />
+        <attr name="moveLeft" format="integer" />
+        <attr name="moveRight" format="integer" />
+    </declare-styleable>
+</resources>

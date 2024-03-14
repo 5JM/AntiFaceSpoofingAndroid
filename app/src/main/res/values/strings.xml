@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">iChecker P</string>
+    <string name="guid_livenes">너무 어두운 곳이나, 노란색 조명이 강한곳,\n역광환경에서는 측정이 어렵습니다.\n얼굴이 밝게 보이는 곳으로 이동하여 측정해주세요.</string>
+    <!--    <string name="no_permission_device">해당 단말은 미등록 단말이거나,\n유효하지 않은 단말입니다.\n관리자(010-4668-2078) 에게\n문의해 주시기 바랍니다.</string>-->
+</resources>

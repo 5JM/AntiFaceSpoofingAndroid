@@ -1,0 +1,5 @@
+rootProject.name = "iCheckerPassive"
+include ':app'
+include ':liveness'
+include ':communication'
+include ':faceverification'
